@@ -3,7 +3,7 @@
 <head>
     
 
-    <link rel="icon" href="./Images/Restaurant-logo.ico">
+    <link rel="icon" href="./Images/favicon.ico">
 
     <!-- for using bootstrap -->
     <link rel="stylesheet" href="./CSS/bootstrap.css">
@@ -20,27 +20,28 @@
 <body>
   <!-- nav bar -->
     <div class="container-fluid bg-dark">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <img src="./Images/Restaurant-logo.ico" alt="logo" class="ms-3 me-1" height="26.391">
+      <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <img src="./Images/Restaurant-logo.png" alt="logo" class="ms-3 me-2" height="30">
         <a href="#" class="navbar-brand h1 mb-0"> TasteGood</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-controls="hamburger" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    
-        
-    
         <div class="collapse navbar-collapse" id ="hamburger">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item ni">
               <a href="#" class="nav-link">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ni">
               <a href="#" class="nav-link">Menu</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item ni">
+              <a href="#" class="nav-link">Branches</a>
+            </li>
+            <li class="nav-item ni">
               <a href="#" class="nav-link">About</a>
             </li>
-            <li class="nav-item">
+            
+            <li class="nav-item ni">
               <a href="#" class="nav-link">Contact</a>
             </li>
           </ul>
@@ -48,8 +49,44 @@
       </nav>
     </div>
 
+    <!--  carousel -->
+    <div id="intro-carousel" class="carousel slide carousel-fade mycar" data-bs-ride="carousel" data-bs-interval="3000">
+      <!-- carousel indicator(at center-bottom that indicates current carousel) -->
+      <div class="carousel-indicators">
+<button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="2"></button>
+      </div>
 
-    <footer></footer>
+      <!-- carousel-inner that holds main content -->
+      <div class="carousel-inner" style="max-height: calc(100vh - 4rem);">
+        <div class="carousel-item active">
+          <img src="./Images/chickenrice.jpg" alt="chickenrice" class="d-block  w-100">
+        </div>
+        <div class="carousel-item ">
+          <img src="./Images/wholechicken.jpg" alt="wholechicken" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/butternaan.jpg" alt="butternaan" class="d-block w-100">
+        </div>
+      </div>
+
+      <!-- controls for carousel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#intro-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#intro-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+      
+    
+
+   <!-- footer -->
+    <footer class="bg-dark">
+
+    </footer>
   
     <script src="./JavaScript/bootstrap.js"></script>
 </body>
