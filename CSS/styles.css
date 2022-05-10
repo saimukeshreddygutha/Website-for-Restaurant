@@ -1,8 +1,30 @@
-/* Empty CSS File */
+/* font for .navbar-brand */
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
+
+/* for welcome */
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+/* for tagline */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Water+Brush&display=swap');
+
 .navbar-brand{
     font-size: 2.5rem;
-    font-weight: 900;
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 700;
     
+}
+
+.intro-div h1 {
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+.intro-div p{
+    font-size: 5rem;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    color: red;
 }
 
 @media screen and (max-width: 992px){
