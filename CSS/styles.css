@@ -3,9 +3,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
 
 /* for welcome */
-@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
 /* for tagline */
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Water+Brush&display=swap');
+
+/* font for nav-items */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+.navbar-bgcolor{
+    background-color: #931A25;
+}
+
+body{
+    background-color: #FDFAF6 !important;
+}
 
 .navbar-brand{
     font-size: 2.5rem;
@@ -15,16 +26,17 @@
 }
 
 .intro-div h1 {
-    font-family: 'Water Brush', cursive;
+    font-family: 'Dancing Script', cursive;
     text-align: center;
     font-weight: bold;
+    color: #541212;
 }
 
 .intro-div p{
     font-size: 5rem;
     font-family: 'Cabin Sketch', cursive;
     text-align: center;
-    color: red;
+    color: #F9975D;
 }
 
 @media screen and (max-width: 992px){
@@ -34,7 +46,10 @@
 }
 
 .ni{
-    font-size: 1.375rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    /* font-weight: 500; */
+    font-size: 1.24rem;
     padding-left: 1rem;
+    /* background: transparent; */
 }
 
