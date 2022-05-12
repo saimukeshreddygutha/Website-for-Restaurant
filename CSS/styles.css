@@ -56,3 +56,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
+footer{
+    background-color: #931A25;
+}
