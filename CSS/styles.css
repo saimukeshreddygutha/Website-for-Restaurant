@@ -38,17 +38,48 @@ body{
     text-align: center;
     color: #FF6337;
 }
+.navbar-nav .nav-item
+{
+    padding-right: 1em;
+}
+li a {
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* Underlines nav-bar */
+div ul li a::before {
+    content: '';
+    width: 100%;
+    height: 1.5px;
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+}
+
+div ul li a:hover:before,
+div ul li .active::before {
+
+    transform: scaleX(1);
+
+}
 
 @media screen and (max-width: 992px){
     .navbar-brand{
         font-size: 3.25rem;
+    }
+    div ul li a::before{
+            width: 0%;
     }
 }
 
 .ni{
     font-family: 'Merriweather Sans', sans-serif;
     /* font-weight: 500; */
-    font-size: 1.24rem;
+    font-size: 1.2rem;
     padding-left: 1rem;
     /* background: transparent; */
 }
@@ -59,4 +90,16 @@ html{
 
 footer{
     background-color: #931A25;
+}
+.card-img-top{
+    outline: none;
+    border: 5px solid white;
+}
+.card-group .card{
+    border: none;
+    padding:2em 3em;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    padding: 2em 2em 0.5em 2em;
 }
