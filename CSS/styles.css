@@ -40,7 +40,7 @@ body{
 }
 .navbar-nav .nav-item
 {
-    padding-right: 1em;
+    padding-right: 0.75rem;
 }
 li a {
     position: relative;
