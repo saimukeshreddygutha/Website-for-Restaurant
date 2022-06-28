@@ -185,12 +185,12 @@ color: white;
 .social-media p{
     transform: translateX(5.1%);
     word-spacing: 3px;
-        color: white;
+    color: white;
 }
 
 i{
     padding: 30px;
-        color: white;
+    color: white;
 }
 
 form{
@@ -243,8 +243,6 @@ input[type="email"]
     .footer1 h4{
         font-size: 17px;
     }
-
-   
     .links ul li{
         font-size: 17px;
     }
@@ -258,7 +256,6 @@ input[type="email"]
     {
         height: 30px;
     }
-    
 }
 @media screen and (max-width:1021px)
 {
@@ -281,8 +278,7 @@ input[type="email"]
         display: none;
     }
          .links {
-             transform: translateX(170%);
-            
+             transform: translateX(170%); 
          }
          .links ul li a{
             font-size: 17px;
@@ -290,7 +286,6 @@ input[type="email"]
          .img1{
             transform: translate(12%,50%);
          }
-
 }
 @media screen and (max-width:581px)
 {
@@ -303,7 +298,6 @@ input[type="email"]
 }
 
 /* Branches Page CSS Styling */
-
 
 .title-1{
     text-align: center;
