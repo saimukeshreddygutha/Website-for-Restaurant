@@ -10,19 +10,23 @@
 /* font for nav-items */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
-.navbar-bgcolor{
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Parisienne&family=Roboto:ital@1&display=swap');
+
+.navbar-bgcolor {
     background-color: #931A25;
 }
 
-body{
+body {
     background-color: #FDFAF6 !important;
+    position: relative;
 }
 
-.navbar-brand{
+
+.navbar-brand {
     font-size: 2.5rem;
     font-family: 'Radio Canada', sans-serif;
     font-weight: 700;
-    
+
 }
 
 .intro-div h1 {
@@ -32,16 +36,17 @@ body{
     color: #541212;
 }
 
-.intro-div p{
+.intro-div p {
     font-size: 5rem;
     font-family: 'Cabin Sketch', cursive;
     text-align: center;
     color: #FF6337;
 }
-.navbar-nav .nav-item
-{
+
+.navbar-nav .nav-item {
     padding-right: 0.75rem;
 }
+
 li a {
     position: relative;
     text-transform: uppercase;
@@ -49,6 +54,7 @@ li a {
 
 /* Underlines nav-bar */
 div ul li a::before {
+    margin-bottom: -1.9px;
     content: '';
     width: 100%;
     height: 1.5px;
@@ -62,47 +68,45 @@ div ul li a::before {
 
 div ul li a:hover:before,
 div ul li .active::before {
-
     transform: scaleX(1);
 
 }
 
-@media screen and (max-width: 992px){
-    .navbar-brand{
+@media screen and (max-width: 992px) {
+    .navbar-brand {
         font-size: 3.25rem;
     }
-    div ul li a::before{
-            width: 0%;
+
+    div ul li a::before {
+        width: 0%;
     }
 }
 
-.ni{
+.ni {
     font-family: 'Merriweather Sans', sans-serif;
-    /* font-weight: 500; */
     font-size: 1.1rem;
     padding-left: 1rem;
-    /* background: transparent; */
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-footer{
-    background-color: #931A25;
-}
-.card-img-top{
+.card-img-top {
     outline: none;
     border: 5px solid white;
 }
-.card-group .card{
+
+.card-group .card {
     border: none;
-    padding:2em 3em;
+    padding: 2em 3em;
 }
-h1{
+
+h1 {
     font-family: 'Dancing Script', cursive;
     padding: 2em 2em 0.5em 2em;
 }
+
 /* Footer Styles */
 
 footer {
@@ -185,12 +189,12 @@ color: white;
 .social-media p{
     transform: translateX(5.1%);
     word-spacing: 3px;
-    color: white;
+        color: white;
 }
 
 i{
     padding: 30px;
-    color: white;
+        color: white;
 }
 
 form{
@@ -243,6 +247,8 @@ input[type="email"]
     .footer1 h4{
         font-size: 17px;
     }
+
+   
     .links ul li{
         font-size: 17px;
     }
@@ -256,6 +262,7 @@ input[type="email"]
     {
         height: 30px;
     }
+    
 }
 @media screen and (max-width:1021px)
 {
@@ -278,7 +285,8 @@ input[type="email"]
         display: none;
     }
          .links {
-             transform: translateX(170%); 
+             transform: translateX(170%);
+            
          }
          .links ul li a{
             font-size: 17px;
@@ -286,6 +294,7 @@ input[type="email"]
          .img1{
             transform: translate(12%,50%);
          }
+
 }
 @media screen and (max-width:581px)
 {
@@ -299,6 +308,7 @@ input[type="email"]
 
 /* Branches Page CSS Styling */
 
+
 .title-1{
     text-align: center;
     letter-spacing: 2px;
@@ -310,3 +320,4 @@ input[type="email"]
 .one{
     text-align: center;
 }
+
