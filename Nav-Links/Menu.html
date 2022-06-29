@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-        .card{
-        height: 200px;
-        width: 200px;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        }
-      .card img {
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-      }
-      .card p {
-        text-align: center;
-        font-size: 20px;
-        font-family: Helvetica, Arial, sans-serif;
-      }
-      
-    </style>
-  </head>
-  <body>
+<head>
     
-    <div class="card w-10">
-    <img src="../Images/butternaan.jpg" class="card-img-top"  alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      
+
+    <link rel="icon" href="./Images/favicon.ico">
+
+    <!-- for using bootstrap -->
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    
+    <meta charset="UTF-8">
+
+      <!-- linking styles.css -->
+    <link rel="stylesheet" href="../CSS/styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">    
+
+    <!-- Title of the WebPage -->
+    <title class="title" hidden>TasteGood</title>
+</head>
+<body>
+  <!-- nav bar -->
+    <div class="container-fluid navbar-bgcolor">
+      <nav class="navbar navbar-expand-xl navbar-bgcolor navbar-dark pt-2 pb-2">
+        <img src="../Images/Favicon-Transparent-white.png" alt="logo" class="ms-3 me-2" height="48px" width="52px">
+        <a href="#" class="navbar-brand  mb-0 ms-2"> TasteGood</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id ="hamburger">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ni">
+              <a href="../index.html"  class="nav-link">Home</a>
+            </li>
+            <li class="nav-item ni">
+              <a style="border-bottom: 2px solid white" href="../Nav-Links/Menu.html"  class="nav-link">Menu</a>
+
+            </li>
+            <li class="nav-item ni">
+              <a href="../Nav-Links/Branches.html"   class="nav-link">Branches</a>
+            </li>
+            <li class="nav-item ni">
+              <a href="../Nav-Links/About.html"  class="nav-link">About</a>
+            </li>
+            
+            <li class="nav-item ni">
+              <a href="../Nav-Links/Contact.html"  class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </div>
+
+    <script src="../JavaScript/bootstrap.js"></script>
+    <script src="../JavaScript/script.js"></script>
     
-  </body>
+</body>
 </html>
