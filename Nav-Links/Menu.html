@@ -1,58 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-
-    <link rel="icon" href="./Images/favicon.ico">
+  <head>
+    <link rel="icon" href="./Images/favicon.ico" />
 
     <!-- for using bootstrap -->
-    <link rel="stylesheet" href="../CSS/bootstrap.css">
-    
-    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/bootstrap.css" />
 
-      <!-- linking styles.css -->
-    <link rel="stylesheet" href="../CSS/styles.css">
+    <meta charset="UTF-8" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">    
+    <!-- linking styles.css -->
+    <link rel="stylesheet" href="../CSS/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
     <!-- Title of the WebPage -->
     <title class="title" hidden>TasteGood</title>
-</head>
-<body>
-  <!-- nav bar -->
+    <style>
+      button{
+width:70%;
+ margin-left: 15%;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- nav bar -->
     <div class="container-fluid navbar-bgcolor">
       <nav class="navbar navbar-expand-xl navbar-bgcolor navbar-dark pt-2 pb-2">
-        <img src="../Images/Favicon-Transparent-white.png" alt="logo" class="ms-3 me-2" height="48px" width="52px">
-        <a href="#" class="navbar-brand  mb-0 ms-2"> TasteGood</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-expanded="false" aria-label="Toggle navigation">
+        <img
+          src="../Images/Favicon-Transparent-white.png"
+          alt="logo"
+          class="ms-3 me-2"
+          height="48px"
+          width="52px"
+        />
+        <a href="#" class="navbar-brand mb-0 ms-2"> TasteGood</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#hamburger"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id ="hamburger">
+        <div class="collapse navbar-collapse" id="hamburger">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item ni">
-              <a href="../index.html"  class="nav-link">Home</a>
+              <a href="../index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item ni">
-              <a style="border-bottom: 2px solid white" href="../Nav-Links/Menu.html"  class="nav-link">Menu</a>
+              <a
+                style="border-bottom: 2px solid white"
+                href="../Nav-Links/Menu.html"
+                class="nav-link"
+                >Menu</a
+              >
+            </li>
+            <li class="nav-item ni">
+              <a href="../Nav-Links/Branches.html" class="nav-link">Branches</a>
+            </li>
+            <li class="nav-item ni">
+              <a href="../Nav-Links/About.html" class="nav-link">About</a>
+            </li>
 
-            </li>
             <li class="nav-item ni">
-              <a href="../Nav-Links/Branches.html"   class="nav-link">Branches</a>
-            </li>
-            <li class="nav-item ni">
-              <a href="../Nav-Links/About.html"  class="nav-link">About</a>
-            </li>
-            
-            <li class="nav-item ni">
-              <a href="../Nav-Links/Contact.html"  class="nav-link">Contact</a>
+              <a href="../Nav-Links/Contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </div>
 
+    <h1
+      style="
+        margin-top: -10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 4px;
+      "
+    >
+      MENU
+    </h1>
+
+    <div class="card-group">
+      <div class="card" style="margin: 10px">
+        <img class="card-img-top" src="../Images/Mexican.webp" alt="Card image cap" height="250" width="100" />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Mexican</h5>
+          <p class="card-text">
+           Mexican cooking is packed with flavour; among the herbs and spices that give it its distinct kick are a variety of chillies 
+          </p>
+          
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+
+      <div class="card" style="margin: 10px">
+        <img
+          class="card-img-top"
+          src="../Images/Italian.jfif"
+          height="250"
+          width="100"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;" >Italian</h5>
+          <p>Italian cuisine is highly regionalized. Dishes served commonly in one area may not even be known in another.</p>
+          
+        
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+
+
+      <div class="card" style="margin: 10px">
+        <img class="card-img-top" src="../Images/American.jfif"  height="250"
+          width="100" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center";>American</h5>
+          <p class="card-text">
+            American cuisine is fusion cuisine, many regions in America have a specific regional cuisine. Each are deeply rooted in ethnic heritages.
+          </p>
+         
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+    </div>
+    
+    <div class="card-group">
+      <div class="card" style="margin: 10px">
+        <img class="card-img-top" src="../Images/French.jfif"  height="250"
+          width="100" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">French</h5>
+          <p class="card-text">
+           
+French dishes often use simple ingredients transformed by artful techniques. Fresh, naturally produced ingredients can always be found in French cuisine.
+          </p>
+         
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+      <div class="card" style="margin: 10px">
+        <img
+          class="card-img-top"
+          src="../Images/Indian.jfif"
+          height="250"
+          width="100"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Indian</h5>
+          <p class="card-text">
+           Spicy, rich, flavourful and diverse are terms that are frequently used to describe Indian food. All these words are apt in describing Indian cuisine.
+        </div>
+         <button type="button"  class="btn btn-primary">BUY NOW!</button>
+      </div>
+      <div class="card" style="margin: 10px">
+        <img class="card-img-top" src="../Images/Japanese.jfif"  height="250"
+          width="100" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center";>Japanese</h5>
+          <p class="card-text">
+           The traditional cuisine of Japan (Japanese: washoku) is based on rice with miso soup and other dishes; 
+          </p>
+         
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+    </div>
+    
+    <div class="card-group">
+      <div class="card" style="margin: 10px">
+        <img class="card-img-top" src="../Images/Korean.jfif" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Korean</h5>
+          <p class="card-text">
+            Korean food tends to be intensely flavoured, spicy and pungent.Traditional restaurants often feature charcoal grills in the middle of the table - a type of indoor barbecue
+          </p>
+         
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+      <div class="card" style="margin: 10px">
+        <img
+          class="card-img-top"
+          src="../Images/Italian.jfif"
+          height="250"
+          width="100"
+          alt="Card image cap"
+        />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Italian</h5>
+          <p class="card-text">
+            This card has supporting text below as a natural lead-in to
+            additional content  .
+          </p>
+          
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+      <div class="card" style="margin: 10px">
+        <img class="card-img-top" src="../Images/Spanish.jfif"  height="250"
+          width="100" alt="Card image cap" />
+        <div class="card-body">
+          <h5 class="card-title" style="text-align: center;">Spanish</h5>
+          <p class="card-text">
+            This is a wider card with supporting text below as a natural lead-in
+            to additional content. This card has even longer content than the
+            first to show that equal height action.
+          </p>
+         
+        </div>
+         <button type="button" class="btn btn-primary">BUY NOW!</button>
+      </div>
+    </div>
+
+    <footer style="margin-top: 20px;">
+
+  <div class="img1">
+     <a href=""><img src="../Images/Logo White.png" alt="" height="130" width="210"></a>
+  </div>
+ 
+  <div class="links">
+
+  <p>Quick Links</p>
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../Nav-Links/Menu.html">Menu</a></li>
+      <li><a href="../Nav-Links/Branches.html">Branches</a></li>
+      <li><a href="../Nav-Links/About.html">About</a></li>
+      <li><a href="../Nav-Links/Contact.html">Contact</a></li>
+    </ul>Contact</a></li>
+    </ul>
+
+  </div>
+
+  <div class="social-media">
+    <p>FOLLOW US</p>
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-twitter"></i>
+  </div>
+
+  <div class="footer1"> 
+
+  <h1 class="head">Get the TasteGood App</h1>
+  <h4 class="content">We will send you a link to your mail, open it on your phone to download the app</h4>
+  <form action="">
+    <label for="" id="e-mail">Be-In-Touch</label>
+    <input type="email" name="e-mail">
+  </form>
+  </div>
+
+  
+<div class="center">
+
+  <p class="para">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies.2022 © TasteGood™ Ltd. All rights reserved.</p>
+
+</div>
+</footer> 
+    
+
+
     <script src="../JavaScript/bootstrap.js"></script>
     <script src="../JavaScript/script.js"></script>
-    
-</body>
+  </body>
 </html>
