@@ -72,31 +72,15 @@ div ul li .active::before {
 
 }
 
-.btn10{
-    border-bottom: 2px solid white;
-}
 @media screen and (max-width: 992px) {
     .navbar-brand {
         font-size: 3.25rem;
     }
 
-        
-    div ul li a::before{
+    div ul li a::before {
         width: 0%;
     }
-    
 }
-@media screen and (max-width:645px)
-{
-    .nav-link{
-        border-bottom: none;
-    }
-         div ul li a:hover:before
-         {
-            transform: scaleX(0);
-        }
-}
-
 
 .ni {
     font-family: 'Merriweather Sans', sans-serif;
@@ -145,7 +129,9 @@ footer {
     transform: translate(-50%, -50%);
 
 }
-
+i{
+    font-size: 20px;
+}
 .footer1 h1 {
     font-family: 'Dancing Script', cursive;
     padding: 1em 1em 0.5em 1em;
@@ -206,10 +192,9 @@ color: white;
         color: white;
 }
 
-#b{
+i{
     padding: 30px;
         color: white;
-        font-size: 20px;
 }
 
 form{
@@ -219,7 +204,7 @@ form{
 label{
     font-weight: 500;
     font-size: 23px;
-    color: white;
+        color: white;
 }
 
 input[type="email"]
@@ -254,7 +239,7 @@ input[type="email"]
     .social-media i{
         font-size: 14px;
         padding: 3px;
-        margin-left: 22px;
+        margin-left: 32px;
     }
     .footer1 h1{
        font-size: 33px;
@@ -279,59 +264,6 @@ input[type="email"]
     }
     
 }
-@media screen and (min-width:1030px)
-{
-    .social-media {
-        transform: translate(32%,5%);
-    }
-    .social-media p{
-        display: block;
-        transform: translateX(80%);
-    }
-    .social-media i{
-        
-        transform: translateX(95%);
-        margin: 4px;
-    }
-}
-@media screen and (min-width:1280px) {
-  
-    .social-media p {
-        transform: translateX(8%);
-    }
-    .social-media i{
-        transform: translateX(60%);
-    }
-   
-    }
-        @media screen and (min-width:1291px) {
-    
-            .social-media  {
-                transform: translateX(8%);
-            }
-    
-           
-    
-        }
-
-@media screen and (min-width:1308px) {
-    .social-media {
-        display: block;
-        transform: translate(37%, 5%);
-    }
-
-    .social-media p {
-        transform: translateX(6.7%);
-        font-size: 18px;
-    }
-
-    .social-media i {
-        margin: -15px;
-        transform: translateX(23%);
-        margin: 5px;
-    }
-}
-
 @media screen and (max-width:1021px)
 {
     .social-media{
@@ -372,7 +304,6 @@ input[type="email"]
         .img1{
             transform: translate(3%,9%);
         }
-       
 }
 
 /* Branches Page CSS Styling */
@@ -390,88 +321,28 @@ input[type="email"]
     text-align: center;
 }
 
-.location{
-    border: 0px solid black;
-    height: 250px;
-    width: 250px;
-    position: relative;
-    margin: 40px;
-    margin-left:30px;
-   
-   
-border-radius: 5px ;
-   
-    box-shadow: 2px 2px 27px 18px rgba(0, 0, 0, 0.12);
-    box-shadow: 22px -10px 33px 12px rgba(0, 0, 0, 0.12);
-   
+/* About Us */
 
-}
-#dot{
-    margin-left:110px;
-    margin-top: 15px;
-    color: red;
-    font-size: 38px;
-}   
-.directions{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
-.res{
-    font-size: 20px;
-    width: 150px;
-    transform:translate(-1px,30px);
-    padding: 5px;
-}
-.res:hover{
-    background-color: #931A25;
-    color: white;
-    transition: 0.3s ease-in-out all;
-}
-.branches{
-    margin-left: 30px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
 
-@media screen and (min-width:120px)
-{
-    .branches{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .location{
-        margin-left: 110px;
-    }
+.KFC-img{
+    float: right;
+    margin: 0px 20px;
 }
-@media screen and (min-width:640px) {
-    .branches {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+hr{
+    display: inline-block;
+    width: 27%;
+    margin-top: 100px;
+    border: 2px solid red;
+    font-weight: bolder;
+}
+.hr{
+    float: right;
+    }
+    span{
+        margin-left: 5px;
+        margin-right: 0;
     }
 
-    .location {
-        margin-left: 70px;
-    }
-}
-@media screen and (min-width:910px) {
-    .branches {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .location {
-        margin-left: 20px;
-    }
-}
-@media screen and (min-width:1270px) {
-    .branches {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .location {
-        margin-left: 30px;
-    }
+.caption{
+    margin-bottom: 40px ;
 }
