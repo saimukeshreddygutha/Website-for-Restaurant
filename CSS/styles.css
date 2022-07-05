@@ -141,11 +141,11 @@ i {
   color: white;
 }
 
-.links {
-  position: absolute;
+/* .links {
+  position: absolute; *
   left: 25%;
-  top: 15%;
-}
+ top: 15%;
+} */
 
 .links p {
   font-size: 20px;
